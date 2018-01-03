@@ -100,53 +100,6 @@ let app = {
                 console.log(err);
             });
     },
-//    showRecommended: function (movies) {
-//        let section = document.querySelector('#recommended-results .content');
-//        let df = document.createDocumentFragment();
-//        section.innerHTML = "";
-//        let h4 = document.createElement('h4');
-//        h4.textContent = '';
-//        movies.forEach(function (movie) {
-//            let div = document.createElement('div');
-//
-//            div.classList.add('movie');
-//
-//            let h2 = document.createElement('h2');
-//            h2.textContent = movie.title;
-//            h2.classList.add("movie-title");
-//
-//            let p = document.createElement('p');
-//            p.classList.add("movie-desc");
-//            p.textContent = movie.overview;
-//            if (movie.overview.length > 250) {
-//                p.textContent = ''.concat('Overview:', movie.overview.substr(0, 250), '....')
-//            } else {
-//                p.textContent = movie.overview;
-//            }
-//            
-//            let img = document.createElement('img');
-//            img.src = "https://image.tmdb.org/t/p/w1000" + movie.poster_path;
-//
-//            img.className = "poster";
-//            div.appendChild(h2);
-//            div.appendChild(img);
-//            div.appendChild(p);
-//            section.appendChild(h4);
-//            df.appendChild(div);
-//            document.getElementById('recommended-results').classList.add('active');
-//            document.getElementById('search-results').classList.add('page');
-//            document.getElementById('search-results').innerHTML = "";
-//            section.appendChild(df);
-//            
-//        });
-//
-//
-//
-//    }
-//
-//
-//};
-
 showRecommended(movies) {
       
 
